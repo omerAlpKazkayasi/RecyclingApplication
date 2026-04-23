@@ -1,0 +1,11 @@
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\bin\Debug\net10.0\RecyclingApp.SharedKernel.deps.json
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\bin\Debug\net10.0\RecyclingApp.SharedKernel.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\bin\Debug\net10.0\RecyclingApp.SharedKernel.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.AssemblyInfo.cs
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\refint\RecyclingApp.SharedKernel.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\ref\RecyclingApp.SharedKernel.dll

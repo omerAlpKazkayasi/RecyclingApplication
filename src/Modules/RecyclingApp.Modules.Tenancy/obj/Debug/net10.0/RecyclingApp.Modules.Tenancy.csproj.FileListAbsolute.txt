@@ -1,0 +1,15 @@
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.csproj.AssemblyReference.cache
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.AssemblyInfoInputs.cache
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.AssemblyInfo.cs
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.csproj.CoreCompileInputs.cache
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\bin\Debug\net10.0\RecyclingApp.Modules.Tenancy.deps.json
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\bin\Debug\net10.0\RecyclingApp.Modules.Tenancy.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\bin\Debug\net10.0\RecyclingApp.Modules.Tenancy.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\bin\Debug\net10.0\RecyclingApp.SharedKernel.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\bin\Debug\net10.0\RecyclingApp.SharedKernel.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\Recyclin.B4289B40.Up2Date
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\refint\RecyclingApp.Modules.Tenancy.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\ref\RecyclingApp.Modules.Tenancy.dll
