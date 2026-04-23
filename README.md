@@ -1,0 +1,2 @@
+# RecyclingApplication
+RecyclingApplication
