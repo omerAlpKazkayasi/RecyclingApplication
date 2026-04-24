@@ -9,6 +9,8 @@
     <ProjectReference Include="..\RecyclingApp.SharedKernel\RecyclingApp.SharedKernel.csproj" />
     <ProjectReference Include="..\Modules\RecyclingApp.Modules.Tenancy\RecyclingApp.Modules.Tenancy.csproj" />
     <ProjectReference Include="..\Modules\RecyclingApp.Modules.Identity\RecyclingApp.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\RecyclingApp.Modules.Catalog\RecyclingApp.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\Modules\RecyclingApp.Modules.Operations\RecyclingApp.Modules.Operations.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" />

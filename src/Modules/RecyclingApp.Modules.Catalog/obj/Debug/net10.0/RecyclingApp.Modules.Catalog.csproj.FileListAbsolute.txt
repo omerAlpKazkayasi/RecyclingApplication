@@ -1,0 +1,16 @@
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.csproj.AssemblyReference.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.AssemblyInfoInputs.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.AssemblyInfo.cs
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.csproj.CoreCompileInputs.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.sourcelink.json
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\bin\Debug\net10.0\RecyclingApp.Modules.Catalog.deps.json
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\bin\Debug\net10.0\RecyclingApp.Modules.Catalog.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\bin\Debug\net10.0\RecyclingApp.Modules.Catalog.pdb
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\bin\Debug\net10.0\RecyclingApp.SharedKernel.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\bin\Debug\net10.0\RecyclingApp.SharedKernel.pdb
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\Recyclin.FC8BC945.Up2Date
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\refint\RecyclingApp.Modules.Catalog.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\RecyclingApp.Modules.Catalog.pdb
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Catalog\obj\Debug\net10.0\ref\RecyclingApp.Modules.Catalog.dll

@@ -4,6 +4,7 @@ using RecyclingApp.Infrastructure.Persistence;
 using RecyclingApp.Infrastructure.Seed;
 using RecyclingApp.ServiceDefaults;
 using Microsoft.EntityFrameworkCore;
+using RecyclingApp.Api.Features.Catalog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +48,9 @@ app.MapGet("/api/tenants/current", (RecyclingApp.Infrastructure.Context.IRequest
 
 // Map default endpoints from ServiceDefaults (health checks)
 app.MapDefaultEndpoints();
+
+// Map Catalog endpoints
+app.MapCatalogEndpoints();
 
 // Apply migrations and seed on startup (development only)
 if (app.Environment.IsDevelopment())

@@ -11,7 +11,9 @@
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
+          "RecyclingApp.Modules.Catalog": "1.0.0",
           "RecyclingApp.Modules.Identity": "1.0.0",
+          "RecyclingApp.Modules.Operations": "1.0.0",
           "RecyclingApp.Modules.Tenancy": "1.0.0",
           "RecyclingApp.SharedKernel": "1.0.0"
         },
@@ -70,6 +72,19 @@
           }
         }
       },
+      "RecyclingApp.Modules.Catalog/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "RecyclingApp.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "RecyclingApp.Modules.Catalog.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "RecyclingApp.Modules.Identity/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
@@ -77,6 +92,19 @@
         },
         "runtime": {
           "RecyclingApp.Modules.Identity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RecyclingApp.Modules.Operations/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "RecyclingApp.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "RecyclingApp.Modules.Operations.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -146,7 +174,17 @@
       "path": "npgsql.entityframeworkcore.postgresql/10.0.1",
       "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.1.nupkg.sha512"
     },
+    "RecyclingApp.Modules.Catalog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "RecyclingApp.Modules.Identity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecyclingApp.Modules.Operations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

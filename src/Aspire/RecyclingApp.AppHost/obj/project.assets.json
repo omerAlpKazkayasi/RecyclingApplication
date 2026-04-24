@@ -3414,24 +3414,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qwe_c\\.nuget\\packages\\": {},
+    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\RecyclingApp.AppHost.csproj",
+      "projectUniqueName": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\RecyclingApp.AppHost.csproj",
       "projectName": "RecyclingApp.AppHost",
-      "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\RecyclingApp.AppHost.csproj",
-      "packagesPath": "C:\\Users\\qwe_c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\obj\\",
+      "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\RecyclingApp.AppHost.csproj",
+      "packagesPath": "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Aspire\\RecyclingApp.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\qwe_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\NuGet.Config",
+        "C:\\Users\\omer.kazkayasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,7 +3440,6 @@
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3454,6 +3454,7 @@
           "NU1605"
         ],
         "warnNotAsError": [
+          "NU1507",
           "NU1901",
           "NU1902",
           "NU1903"
@@ -3495,18 +3496,24 @@
           "Aspire.Hosting.AppHost": "9.3.0",
           "Aspire.Hosting.PostgreSQL": "9.3.0",
           "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "9.3.0",
+          "coverlet.collector": "6.0.4",
+          "FluentAssertions": "7.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Design": "10.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
           "Microsoft.Extensions.Hosting": "10.0.0",
           "Microsoft.Extensions.Http.Resilience": "9.5.0",
           "Microsoft.Extensions.ServiceDiscovery": "9.3.0",
+          "Microsoft.NET.Test.Sdk": "17.13.0",
+          "Moq": "4.20.72",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
           "OpenTelemetry.Extensions.Hosting": "1.12.0",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
           "OpenTelemetry.Instrumentation.Http": "1.12.0",
-          "OpenTelemetry.Instrumentation.Runtime": "1.12.0"
+          "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+          "xunit": "2.9.3",
+          "xunit.runner.visualstudio": "3.0.2"
         },
         "imports": [
           "net461",
@@ -3807,7 +3814,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'KubernetesClient' 16.0.7 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-w7r3-mgwf-4mqq güvenlik açığı var",
+      "message": "Package 'KubernetesClient' 16.0.7 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w7r3-mgwf-4mqq",
       "libraryId": "KubernetesClient",
       "targetGraphs": [
         "net10.0"
