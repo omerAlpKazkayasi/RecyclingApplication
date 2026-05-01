@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class RecyclingApp_Api : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\RecyclingApp.Api.csproj""";
+    public string ProjectPath => """C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.Api\RecyclingApp.Api.csproj""";
 }

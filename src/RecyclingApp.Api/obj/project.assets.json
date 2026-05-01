@@ -1006,7 +1006,9 @@
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
+          "RecyclingApp.Modules.Catalog": "1.0.0",
           "RecyclingApp.Modules.Identity": "1.0.0",
+          "RecyclingApp.Modules.Operations": "1.0.0",
           "RecyclingApp.Modules.Tenancy": "1.0.0",
           "RecyclingApp.SharedKernel": "1.0.0"
         },
@@ -1015,6 +1017,24 @@
         },
         "runtime": {
           "bin/placeholder/RecyclingApp.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "RecyclingApp.Modules.Catalog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "RecyclingApp.SharedKernel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RecyclingApp.Modules.Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecyclingApp.Modules.Catalog.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -1032,6 +1052,21 @@
         },
         "runtime": {
           "bin/placeholder/RecyclingApp.Modules.Identity.dll": {}
+        }
+      },
+      "RecyclingApp.Modules.Operations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
+          "RecyclingApp.SharedKernel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RecyclingApp.Modules.Operations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecyclingApp.Modules.Operations.dll": {}
         }
       },
       "RecyclingApp.Modules.Tenancy/1.0.0": {
@@ -3105,10 +3140,20 @@
       "path": "../RecyclingApp.Infrastructure/RecyclingApp.Infrastructure.csproj",
       "msbuildProject": "../RecyclingApp.Infrastructure/RecyclingApp.Infrastructure.csproj"
     },
+    "RecyclingApp.Modules.Catalog/1.0.0": {
+      "type": "project",
+      "path": "../Modules/RecyclingApp.Modules.Catalog/RecyclingApp.Modules.Catalog.csproj",
+      "msbuildProject": "../Modules/RecyclingApp.Modules.Catalog/RecyclingApp.Modules.Catalog.csproj"
+    },
     "RecyclingApp.Modules.Identity/1.0.0": {
       "type": "project",
       "path": "../Modules/RecyclingApp.Modules.Identity/RecyclingApp.Modules.Identity.csproj",
       "msbuildProject": "../Modules/RecyclingApp.Modules.Identity/RecyclingApp.Modules.Identity.csproj"
+    },
+    "RecyclingApp.Modules.Operations/1.0.0": {
+      "type": "project",
+      "path": "../Modules/RecyclingApp.Modules.Operations/RecyclingApp.Modules.Operations.csproj",
+      "msbuildProject": "../Modules/RecyclingApp.Modules.Operations/RecyclingApp.Modules.Operations.csproj"
     },
     "RecyclingApp.Modules.Tenancy/1.0.0": {
       "type": "project",
@@ -3134,24 +3179,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qwe_c\\.nuget\\packages\\": {},
+    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.Api\\RecyclingApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.Api\\RecyclingApp.Api.csproj",
       "projectName": "RecyclingApp.Api",
-      "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.Api\\RecyclingApp.Api.csproj",
-      "packagesPath": "C:\\Users\\qwe_c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.Api\\obj\\",
+      "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.Api\\RecyclingApp.Api.csproj",
+      "packagesPath": "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\qwe_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\NuGet.Config",
+        "C:\\Users\\omer.kazkayasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3159,18 +3205,17 @@
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Aspire\\RecyclingApp.ServiceDefaults\\RecyclingApp.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Aspire\\RecyclingApp.ServiceDefaults\\RecyclingApp.ServiceDefaults.csproj"
+            "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Aspire\\RecyclingApp.ServiceDefaults\\RecyclingApp.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Aspire\\RecyclingApp.ServiceDefaults\\RecyclingApp.ServiceDefaults.csproj"
             },
-            "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.Infrastructure\\RecyclingApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.Infrastructure\\RecyclingApp.Infrastructure.csproj"
+            "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.Infrastructure\\RecyclingApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.Infrastructure\\RecyclingApp.Infrastructure.csproj"
             }
           }
         }
@@ -3181,6 +3226,7 @@
           "NU1605"
         ],
         "warnNotAsError": [
+          "NU1507",
           "NU1901",
           "NU1902",
           "NU1903"
@@ -3209,18 +3255,24 @@
           "Aspire.Hosting.AppHost": "9.3.0",
           "Aspire.Hosting.PostgreSQL": "9.3.0",
           "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "9.3.0",
+          "coverlet.collector": "6.0.4",
+          "FluentAssertions": "7.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Design": "10.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
           "Microsoft.Extensions.Hosting": "10.0.0",
           "Microsoft.Extensions.Http.Resilience": "9.5.0",
           "Microsoft.Extensions.ServiceDiscovery": "9.3.0",
+          "Microsoft.NET.Test.Sdk": "17.13.0",
+          "Moq": "4.20.72",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
           "OpenTelemetry.Extensions.Hosting": "1.12.0",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
           "OpenTelemetry.Instrumentation.Http": "1.12.0",
-          "OpenTelemetry.Instrumentation.Runtime": "1.12.0"
+          "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+          "xunit": "2.9.3",
+          "xunit.runner.visualstudio": "3.0.2"
         },
         "imports": [
           "net461",
@@ -3658,5 +3710,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Api' 1.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g94r-2vxg-569j",
+      "libraryId": "OpenTelemetry.Api",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

@@ -10,3 +10,16 @@ C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\
 C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\refint\RecyclingApp.ServiceDefaults.dll
 C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.pdb
 C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\ref\RecyclingApp.ServiceDefaults.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\bin\Debug\net10.0\RecyclingApp.ServiceDefaults.deps.json
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\bin\Debug\net10.0\RecyclingApp.ServiceDefaults.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\bin\Debug\net10.0\RecyclingApp.ServiceDefaults.pdb
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.AssemblyInfo.cs
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.sourcelink.json
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\refint\RecyclingApp.ServiceDefaults.dll
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.pdb
+C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\ref\RecyclingApp.ServiceDefaults.dll

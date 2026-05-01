@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using RecyclingApp.Infrastructure.Persistence;
 using RecyclingApp.Modules.Identity.Domain.Entities;
 using RecyclingApp.Modules.Tenancy.Domain.Entities;
+using RecyclingApp.Modules.Catalog.Domain.Entities;
 using RecyclingApp.SharedKernel.Domain;
 
 namespace RecyclingApp.Infrastructure.Seed;
@@ -49,6 +50,24 @@ public static class DataSeeder
         };
 
         context.SystemParameters.AddRange(parameters);
+
+        // Seed basic products
+        if (!await context.Products.AnyAsync())
+        {
+            var products = new[]
+            {
+                Product.Create(DefaultTenantId, "PRD-CU", "Copper Mixed", "Non-Ferrous", "Grade A", "kg"),
+                Product.Create(DefaultTenantId, "PRD-AL", "Aluminum Cans", "Non-Ferrous", "UBC", "kg"),
+                Product.Create(DefaultTenantId, "PRD-FE", "Iron Scrap", "Ferrous", "Heavy Melting", "ton")
+            };
+            
+            // Assign well known IDs for predictability if needed, or let them generate
+            SetEntityId(products[0], Guid.Parse("01966f00-0000-7000-8000-000000000010"));
+            SetEntityId(products[1], Guid.Parse("01966f00-0000-7000-8000-000000000011"));
+            SetEntityId(products[2], Guid.Parse("01966f00-0000-7000-8000-000000000012"));
+
+            context.Products.AddRange(products);
+        }
 
         await context.SaveChangesAsync();
     }

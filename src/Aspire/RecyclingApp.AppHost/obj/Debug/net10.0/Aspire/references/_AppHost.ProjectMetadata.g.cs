@@ -8,5 +8,5 @@ namespace Projects;
 public class RecyclingApp_AppHost
 {
     private RecyclingApp_AppHost() { }
-    public static string ProjectPath => """C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.AppHost""";
+    public static string ProjectPath => """C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.AppHost""";
 }
