@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecyclingApp.Modules.Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0161bd9740178b6f7e8349319964f8b0d65ed3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7a7421687244c6aa296ccb7897ae28cf9074f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecyclingApp.Modules.Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecyclingApp.Modules.Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

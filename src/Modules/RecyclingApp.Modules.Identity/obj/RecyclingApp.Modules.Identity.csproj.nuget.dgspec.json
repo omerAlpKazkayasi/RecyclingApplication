@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj": {}
+    "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj": {
+    "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj",
         "projectName": "RecyclingApp.Modules.Identity",
-        "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj",
-        "packagesPath": "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\obj\\",
+        "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\RecyclingApp.Modules.Identity.csproj",
+        "packagesPath": "C:\\Users\\qwe_c\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\NuGet.Config",
-          "C:\\Users\\omer.kazkayasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\NuGet.Config",
+          "C:\\Users\\qwe_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj"
+              "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj"
               }
             }
           }
@@ -385,22 +385,22 @@
         }
       }
     },
-    "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj": {
+    "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj",
         "projectName": "RecyclingApp.SharedKernel",
-        "projectPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\obj\\",
+        "projectPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\RecyclingApp.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\qwe_c\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\RecyclingApp.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\NuGet.Config",
-          "C:\\Users\\omer.kazkayasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\NuGet.Config",
+          "C:\\Users\\qwe_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

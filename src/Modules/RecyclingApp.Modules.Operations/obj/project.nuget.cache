@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "UNI81txYcco=",
+  "dgSpecHash": "9L/MwKPjRx0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\omer.kazkayasi\\Desktop\\RecylingProject\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Operations\\RecyclingApp.Modules.Operations.csproj",
+  "projectFilePath": "C:\\Users\\qwe_c\\OneDrive\\Masaüstü\\ReclylingApp\\RecyclingApplication\\src\\Modules\\RecyclingApp.Modules.Operations\\RecyclingApp.Modules.Operations.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.4\\microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.4\\microsoft.entityframeworkcore.analyzers.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.4\\microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.4\\microsoft.extensions.caching.abstractions.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.4\\microsoft.extensions.caching.memory.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.4\\microsoft.extensions.configuration.abstractions.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.4\\microsoft.extensions.dependencyinjection.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.4\\microsoft.extensions.dependencyinjection.abstractions.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.logging\\10.0.4\\microsoft.extensions.logging.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.4\\microsoft.extensions.logging.abstractions.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.options\\10.0.4\\microsoft.extensions.options.10.0.4.nupkg.sha512",
-    "C:\\Users\\omer.kazkayasi\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.4\\microsoft.extensions.primitives.10.0.4.nupkg.sha512"
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.4\\microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.4\\microsoft.entityframeworkcore.analyzers.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.4\\microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.4\\microsoft.extensions.caching.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.4\\microsoft.extensions.caching.memory.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.4\\microsoft.extensions.configuration.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.4\\microsoft.extensions.dependencyinjection.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.4\\microsoft.extensions.dependencyinjection.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.logging\\10.0.4\\microsoft.extensions.logging.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.4\\microsoft.extensions.logging.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.options\\10.0.4\\microsoft.extensions.options.10.0.4.nupkg.sha512",
+    "C:\\Users\\qwe_c\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.4\\microsoft.extensions.primitives.10.0.4.nupkg.sha512"
   ],
   "logs": []
 }

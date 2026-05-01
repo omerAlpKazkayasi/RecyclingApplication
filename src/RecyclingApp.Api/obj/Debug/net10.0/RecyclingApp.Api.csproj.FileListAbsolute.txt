@@ -305,3 +305,8 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Recycli
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.Api\obj\Debug\net10.0\ref\RecyclingApp.Api.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Operations.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Operations.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Catalog.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Operations.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Catalog.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\bin\Debug\net10.0\RecyclingApp.Modules.Operations.pdb
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.Api\obj\Debug\net10.0\RecyclingApp.Api.sourcelink.json

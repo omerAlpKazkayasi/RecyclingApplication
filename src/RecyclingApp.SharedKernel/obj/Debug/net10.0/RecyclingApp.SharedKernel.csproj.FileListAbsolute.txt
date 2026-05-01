@@ -21,3 +21,4 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Recycli
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\refint\RecyclingApp.SharedKernel.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.pdb
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\ref\RecyclingApp.SharedKernel.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\RecyclingApp.SharedKernel\obj\Debug\net10.0\RecyclingApp.SharedKernel.sourcelink.json

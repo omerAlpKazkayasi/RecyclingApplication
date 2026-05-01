@@ -5,13 +5,13 @@ services:
     image: postgres:18
     container_name: recyclingapp-postgres
     environment:
-      POSTGRES_USER: recyclingapp
-      POSTGRES_PASSWORD: recyclingapp_dev_2026
-      POSTGRES_DB: recyclingapp
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql
     restart: unless-stopped
 
 volumes:

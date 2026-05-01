@@ -23,3 +23,4 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\refint\RecyclingApp.ServiceDefaults.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.pdb
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\ref\RecyclingApp.ServiceDefaults.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.ServiceDefaults\obj\Debug\net10.0\RecyclingApp.ServiceDefaults.sourcelink.json

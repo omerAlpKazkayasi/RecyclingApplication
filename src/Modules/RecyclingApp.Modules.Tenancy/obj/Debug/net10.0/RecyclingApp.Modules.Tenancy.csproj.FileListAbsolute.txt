@@ -29,3 +29,4 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\refint\RecyclingApp.Modules.Tenancy.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.pdb
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\ref\RecyclingApp.Modules.Tenancy.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Tenancy\obj\Debug\net10.0\RecyclingApp.Modules.Tenancy.sourcelink.json

@@ -29,3 +29,4 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Identity\obj\Debug\net10.0\refint\RecyclingApp.Modules.Identity.dll
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Identity\obj\Debug\net10.0\RecyclingApp.Modules.Identity.pdb
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Modules\RecyclingApp.Modules.Identity\obj\Debug\net10.0\ref\RecyclingApp.Modules.Identity.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Modules\RecyclingApp.Modules.Identity\obj\Debug\net10.0\RecyclingApp.Modules.Identity.sourcelink.json

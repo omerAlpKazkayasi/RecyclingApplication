@@ -201,3 +201,4 @@ C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.AppHost\obj\Debug\net10.0\Recyclin.FE05D205.Up2Date
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.AppHost\obj\Debug\net10.0\RecyclingApp.AppHost.genruntimeconfig.cache
 C:\Users\omer.kazkayasi\Desktop\RecylingProject\RecyclingApplication\src\Aspire\RecyclingApp.AppHost\obj\Debug\net10.0\ref\RecyclingApp.AppHost.dll
+C:\Users\qwe_c\OneDrive\Masaüstü\ReclylingApp\RecyclingApplication\src\Aspire\RecyclingApp.AppHost\obj\Debug\net10.0\RecyclingApp.AppHost.sourcelink.json
