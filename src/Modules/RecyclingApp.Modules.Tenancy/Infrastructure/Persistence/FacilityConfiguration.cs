@@ -12,7 +12,6 @@ public class FacilityConfiguration : IEntityTypeConfiguration<Facility>
 
         builder.HasKey(f => f.Id);
         builder.Property(f => f.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(f => f.PublicId).HasColumnName("public_id").IsRequired();
 
         builder.Property(f => f.TenantId).HasColumnName("tenant_id").IsRequired();
         builder.Property(f => f.Code).HasColumnName("code").HasMaxLength(50).IsRequired();
@@ -22,7 +21,6 @@ public class FacilityConfiguration : IEntityTypeConfiguration<Facility>
         builder.Property(f => f.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(f => f.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(f => f.PublicId).IsUnique();
         builder.HasIndex(f => new { f.TenantId, f.Code }).IsUnique();
         builder.HasIndex(f => f.TenantId);
 

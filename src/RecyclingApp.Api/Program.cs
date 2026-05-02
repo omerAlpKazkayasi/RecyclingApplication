@@ -4,7 +4,8 @@ using RecyclingApp.Infrastructure.Persistence;
 using RecyclingApp.Infrastructure.Seed;
 using RecyclingApp.ServiceDefaults;
 using Microsoft.EntityFrameworkCore;
-using RecyclingApp.Api.Features.Catalog;
+using Scalar.AspNetCore;
+using RecyclingApp.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +16,15 @@ builder.AddServiceDefaults();
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddInfrastructure(connectionString);
+builder.Services.AddApplication();
+builder.Services.AddControllers();
+builder.Services.AddProblemDetails();
+builder.Services.AddExceptionHandler<RecyclingApp.Api.Middleware.GlobalExceptionHandler>();
+builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+app.UseExceptionHandler();
 
 // Request context middleware (reads X-Tenant-Id, X-Facility-Id, X-User-Id headers)
 app.UseMiddleware<RequestContextMiddleware>();
@@ -38,7 +46,7 @@ app.MapGet("/", () => Results.Ok(new
 }));
 
 // Tenant context verification endpoint
-app.MapGet("/api/tenants/current", (RecyclingApp.Infrastructure.Context.IRequestContext ctx) => Results.Ok(new
+app.MapGet("/api/tenants/current", (RecyclingApp.Application.Abstractions.Security.IRequestContext ctx) => Results.Ok(new
 {
     TenantId = ctx.HasTenant ? ctx.TenantId.ToString() : null,
     FacilityId = ctx.HasFacility ? ctx.FacilityId?.ToString() : null,
@@ -49,8 +57,8 @@ app.MapGet("/api/tenants/current", (RecyclingApp.Infrastructure.Context.IRequest
 // Map default endpoints from ServiceDefaults (health checks)
 app.MapDefaultEndpoints();
 
-// Map Catalog endpoints
-app.MapCatalogEndpoints();
+// Map Controllers
+app.MapControllers();
 
 // Apply migrations and seed on startup (development only)
 if (app.Environment.IsDevelopment())
@@ -59,6 +67,8 @@ if (app.Environment.IsDevelopment())
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await dbContext.Database.MigrateAsync();
     await DataSeeder.SeedAsync(dbContext);
+    app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.Run();

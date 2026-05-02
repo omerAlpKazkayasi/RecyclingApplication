@@ -12,7 +12,6 @@ public class SystemParameterConfiguration : IEntityTypeConfiguration<SystemParam
 
         builder.HasKey(sp => sp.Id);
         builder.Property(sp => sp.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(sp => sp.PublicId).HasColumnName("public_id").IsRequired();
 
         builder.Property(sp => sp.TenantId).HasColumnName("tenant_id").IsRequired();
         builder.Property(sp => sp.FacilityId).HasColumnName("facility_id");
@@ -22,7 +21,6 @@ public class SystemParameterConfiguration : IEntityTypeConfiguration<SystemParam
         builder.Property(sp => sp.UpdatedAt).HasColumnName("updated_at").IsRequired();
         builder.Property(sp => sp.UpdatedByUserId).HasColumnName("updated_by_user_id");
 
-        builder.HasIndex(sp => sp.PublicId).IsUnique();
         builder.HasIndex(sp => new { sp.TenantId, sp.FacilityId, sp.ParameterCode }).IsUnique();
 
         builder.HasOne<Tenant>()

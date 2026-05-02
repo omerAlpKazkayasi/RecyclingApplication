@@ -11,6 +11,9 @@ public class PriceList : TenantEntity
     public DateTime? ValidTo { get; private set; }
     public bool IsActive { get; private set; }
 
+    private readonly List<PriceListItem> _items = [];
+    public virtual IReadOnlyCollection<PriceListItem> Items => _items.AsReadOnly();
+
     protected PriceList() : base() { }
 
     public static PriceList Create(Guid tenantId, PriceListType type, string name, DateTime validFrom, DateTime? validTo)

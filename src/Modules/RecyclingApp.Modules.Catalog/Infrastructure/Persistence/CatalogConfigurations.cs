@@ -12,7 +12,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         builder.HasKey(p => p.Id);
         builder.Property(p => p.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(p => p.PublicId).HasColumnName("public_id").IsRequired();
+
         builder.Property(p => p.TenantId).HasColumnName("tenant_id").IsRequired();
 
         builder.Property(p => p.Code).HasColumnName("code").HasMaxLength(50).IsRequired();
@@ -24,7 +24,6 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.Property(p => p.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(p => p.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(p => p.PublicId).IsUnique();
         builder.HasIndex(p => new { p.TenantId, p.Code }).IsUnique();
     }
 }
@@ -37,7 +36,6 @@ public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
 
         builder.HasKey(c => c.Id);
         builder.Property(c => c.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(c => c.PublicId).HasColumnName("public_id").IsRequired();
         builder.Property(c => c.TenantId).HasColumnName("tenant_id").IsRequired();
 
         builder.Property(c => c.Name).HasColumnName("name").HasMaxLength(200).IsRequired();
@@ -50,7 +48,6 @@ public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
         builder.Property(c => c.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(c => c.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(c => c.PublicId).IsUnique();
     }
 }
 
@@ -62,7 +59,6 @@ public class VehicleConfiguration : IEntityTypeConfiguration<Vehicle>
 
         builder.HasKey(v => v.Id);
         builder.Property(v => v.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(v => v.PublicId).HasColumnName("public_id").IsRequired();
         builder.Property(v => v.TenantId).HasColumnName("tenant_id").IsRequired();
 
         builder.Property(v => v.PlateNumber).HasColumnName("plate_number").HasMaxLength(20).IsRequired();
@@ -72,7 +68,6 @@ public class VehicleConfiguration : IEntityTypeConfiguration<Vehicle>
         builder.Property(v => v.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(v => v.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(v => v.PublicId).IsUnique();
         builder.HasIndex(v => new { v.TenantId, v.PlateNumber }).IsUnique();
     }
 }
@@ -85,7 +80,7 @@ public class PriceListConfiguration : IEntityTypeConfiguration<PriceList>
 
         builder.HasKey(p => p.Id);
         builder.Property(p => p.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(p => p.PublicId).HasColumnName("public_id").IsRequired();
+
         builder.Property(p => p.TenantId).HasColumnName("tenant_id").IsRequired();
 
         builder.Property(p => p.Type).HasColumnName("type").IsRequired();
@@ -96,7 +91,6 @@ public class PriceListConfiguration : IEntityTypeConfiguration<PriceList>
         builder.Property(p => p.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(p => p.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(p => p.PublicId).IsUnique();
     }
 }
 
@@ -108,7 +102,7 @@ public class PriceListItemConfiguration : IEntityTypeConfiguration<PriceListItem
 
         builder.HasKey(p => p.Id);
         builder.Property(p => p.Id).HasColumnName("id").ValueGeneratedNever();
-        builder.Property(p => p.PublicId).HasColumnName("public_id").IsRequired();
+
         builder.Property(p => p.TenantId).HasColumnName("tenant_id").IsRequired();
 
         builder.Property(p => p.PriceListId).HasColumnName("price_list_id").IsRequired();
@@ -118,11 +112,10 @@ public class PriceListItemConfiguration : IEntityTypeConfiguration<PriceListItem
         builder.Property(p => p.CreatedAt).HasColumnName("created_at").IsRequired();
         builder.Property(p => p.UpdatedAt).HasColumnName("updated_at");
 
-        builder.HasIndex(p => p.PublicId).IsUnique();
         builder.HasIndex(p => new { p.PriceListId, p.ProductId }).IsUnique();
 
         builder.HasOne(p => p.PriceList)
-            .WithMany()
+            .WithMany(p => p.Items)
             .HasForeignKey(p => p.PriceListId)
             .OnDelete(DeleteBehavior.Cascade);
 

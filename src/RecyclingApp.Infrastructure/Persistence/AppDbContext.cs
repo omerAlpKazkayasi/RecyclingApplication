@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using RecyclingApp.Application.Abstractions.Persistence;
+using RecyclingApp.Application.Abstractions.Security;
 using RecyclingApp.Infrastructure.Context;
 using RecyclingApp.Modules.Identity.Domain.Entities;
 using RecyclingApp.Modules.Tenancy.Domain.Entities;
@@ -63,16 +65,16 @@ public class AppDbContext : DbContext, IUnitOfWork
         // Catalog entities are tenant-scoped
         modelBuilder.Entity<Product>().HasQueryFilter(x =>
             _requestContext == null || !_requestContext.HasTenant || x.TenantId == _requestContext.TenantId);
-        
+
         modelBuilder.Entity<Customer>().HasQueryFilter(x =>
             _requestContext == null || !_requestContext.HasTenant || x.TenantId == _requestContext.TenantId);
-            
+
         modelBuilder.Entity<Vehicle>().HasQueryFilter(x =>
             _requestContext == null || !_requestContext.HasTenant || x.TenantId == _requestContext.TenantId);
-            
+
         modelBuilder.Entity<PriceList>().HasQueryFilter(x =>
             _requestContext == null || !_requestContext.HasTenant || x.TenantId == _requestContext.TenantId);
-            
+
         modelBuilder.Entity<PriceListItem>().HasQueryFilter(x =>
             _requestContext == null || !_requestContext.HasTenant || x.TenantId == _requestContext.TenantId);
 

@@ -13,7 +13,6 @@ internal class TransactionConfiguration : IEntityTypeConfiguration<Transaction>
         builder.HasKey(t => t.Id);
         
         builder.Property(t => t.Id).HasColumnName("id");
-        builder.Property(t => t.PublicId).HasColumnName("public_id").IsRequired();
         builder.Property(t => t.TenantId).HasColumnName("tenant_id").IsRequired();
         builder.Property(t => t.FacilityId).HasColumnName("facility_id").IsRequired();
         builder.Property(t => t.CreatedAt).HasColumnName("created_at").IsRequired();
@@ -59,7 +58,6 @@ internal class TransactionConfiguration : IEntityTypeConfiguration<Transaction>
             .HasColumnName("notes")
             .HasMaxLength(2000);
 
-        builder.HasIndex(t => t.PublicId).IsUnique();
         // Unique transaction_no per tenant/facility
         builder.HasIndex(t => new { t.TenantId, t.FacilityId, t.TransactionNo }).IsUnique();
 
@@ -100,7 +98,7 @@ internal class TransactionItemConfiguration : IEntityTypeConfiguration<Transacti
         builder.HasKey(i => i.Id);
 
         builder.Property(i => i.Id).HasColumnName("id");
-        builder.Property(i => i.PublicId).HasColumnName("public_id").IsRequired();
+
 
         builder.Property(i => i.TransactionId).HasColumnName("transaction_id").IsRequired();
         builder.Property(i => i.ProductId).HasColumnName("product_id").IsRequired();
@@ -134,7 +132,6 @@ internal class TransactionItemConfiguration : IEntityTypeConfiguration<Transacti
             .HasColumnName("notes")
             .HasMaxLength(1000);
             
-        builder.HasIndex(i => i.PublicId).IsUnique();
     }
 }
 
@@ -146,7 +143,7 @@ internal class VehicleScaleWeightConfiguration : IEntityTypeConfiguration<Vehicl
         builder.HasKey(v => v.Id);
 
         builder.Property(v => v.Id).HasColumnName("id");
-        builder.Property(v => v.PublicId).HasColumnName("public_id").IsRequired();
+
 
         builder.Property(v => v.TransactionId).HasColumnName("transaction_id").IsRequired();
         builder.Property(v => v.Direction).HasColumnName("direction").IsRequired();
@@ -165,7 +162,6 @@ internal class VehicleScaleWeightConfiguration : IEntityTypeConfiguration<Vehicl
             .HasColumnName("invalid_reason")
             .HasMaxLength(1000);
             
-        builder.HasIndex(v => v.PublicId).IsUnique();
     }
 }
 
@@ -177,7 +173,7 @@ internal class InternalWeightConfiguration : IEntityTypeConfiguration<InternalWe
         builder.HasKey(i => i.Id);
 
         builder.Property(i => i.Id).HasColumnName("id");
-        builder.Property(i => i.PublicId).HasColumnName("public_id").IsRequired();
+
 
         builder.Property(i => i.TransactionId).HasColumnName("transaction_id").IsRequired();
         builder.Property(i => i.ProductId).HasColumnName("product_id").IsRequired();
@@ -200,7 +196,6 @@ internal class InternalWeightConfiguration : IEntityTypeConfiguration<InternalWe
             .HasColumnName("notes")
             .HasMaxLength(1000);
             
-        builder.HasIndex(i => i.PublicId).IsUnique();
     }
 }
 
@@ -212,7 +207,7 @@ internal class TransactionCheckConfiguration : IEntityTypeConfiguration<Transact
         builder.HasKey(c => c.Id);
 
         builder.Property(c => c.Id).HasColumnName("id");
-        builder.Property(c => c.PublicId).HasColumnName("public_id").IsRequired();
+
 
         builder.Property(c => c.TransactionId).HasColumnName("transaction_id").IsRequired();
         
@@ -249,6 +244,5 @@ internal class TransactionCheckConfiguration : IEntityTypeConfiguration<Transact
             .HasColumnName("notes")
             .HasMaxLength(1000);
             
-        builder.HasIndex(c => c.PublicId).IsUnique();
     }
 }

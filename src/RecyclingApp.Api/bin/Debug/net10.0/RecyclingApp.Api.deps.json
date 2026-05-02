@@ -8,9 +8,12 @@
     ".NETCoreApp,Version=v10.0": {
       "RecyclingApp.Api/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.4",
+          "RecyclingApp.Application": "1.0.0",
           "RecyclingApp.Infrastructure": "1.0.0",
-          "RecyclingApp.ServiceDefaults": "1.0.0"
+          "RecyclingApp.ServiceDefaults": "1.0.0",
+          "Scalar.AspNetCore": "2.0.12"
         },
         "runtime": {
           "RecyclingApp.Api.dll": {}
@@ -21,6 +24,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
           }
         }
       },
@@ -474,6 +488,14 @@
           }
         }
       },
+      "Microsoft.OpenApi/2.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
         "runtime": {
           "lib/net8.0/Microsoft.VisualStudio.SolutionPersistence.dll": {
@@ -637,6 +659,14 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.0.12": {
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.0.12.0",
+            "fileVersion": "2.0.12.0"
+          }
+        }
+      },
       "System.CodeDom/6.0.0": {
         "runtime": {
           "lib/net6.0/System.CodeDom.dll": {
@@ -705,11 +735,27 @@
           }
         }
       },
+      "RecyclingApp.Application/1.0.0": {
+        "dependencies": {
+          "RecyclingApp.Modules.Catalog": "1.0.0",
+          "RecyclingApp.Modules.Identity": "1.0.0",
+          "RecyclingApp.Modules.Operations": "1.0.0",
+          "RecyclingApp.Modules.Tenancy": "1.0.0",
+          "RecyclingApp.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "RecyclingApp.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "RecyclingApp.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
+          "RecyclingApp.Application": "1.0.0",
           "RecyclingApp.Modules.Catalog": "1.0.0",
           "RecyclingApp.Modules.Identity": "1.0.0",
           "RecyclingApp.Modules.Operations": "1.0.0",
@@ -813,6 +859,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0aqIF1t+sA2T62LIeMtXGSiaV7keGQaJnvwwmu+htQdjCaKYARfXAeqp4nHH9y2etpilyZ/tnQzZg4Ilmo/c4Q==",
+      "path": "microsoft.aspnetcore.openapi/10.0.0",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512"
     },
     "Microsoft.Build.Framework/18.0.2": {
       "type": "package",
@@ -968,6 +1021,13 @@
       "path": "microsoft.extensions.telemetry.abstractions/9.5.0",
       "hashPath": "microsoft.extensions.telemetry.abstractions.9.5.0.nupkg.sha512"
     },
+    "Microsoft.OpenApi/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+      "path": "microsoft.openapi/2.0.0",
+      "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
       "type": "package",
       "serviceable": true,
@@ -1080,6 +1140,13 @@
       "path": "polly.ratelimiting/8.4.2",
       "hashPath": "polly.ratelimiting.8.4.2.nupkg.sha512"
     },
+    "Scalar.AspNetCore/2.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kMunSAka+sqUakPLVxpXN/3FtvbAbm4zAbAAlC/8ODZpB6eZQaIl0G4Ynsx6HLn47lfiVIqP1ne69Dn/LdjQ0g==",
+      "path": "scalar.aspnetcore/2.0.12",
+      "hashPath": "scalar.aspnetcore.2.0.12.nupkg.sha512"
+    },
     "System.CodeDom/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1128,6 +1195,11 @@
       "sha512": "sha512-aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==",
       "path": "system.composition.typedparts/9.0.0",
       "hashPath": "system.composition.typedparts.9.0.0.nupkg.sha512"
+    },
+    "RecyclingApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "RecyclingApp.Infrastructure/1.0.0": {
       "type": "project",

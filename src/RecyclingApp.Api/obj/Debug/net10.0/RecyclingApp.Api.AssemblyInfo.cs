@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecyclingApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7a7421687244c6aa296ccb7897ae28cf9074f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5c1993357e49d4adffb59c83ebd34a5ac222c5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecyclingApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecyclingApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

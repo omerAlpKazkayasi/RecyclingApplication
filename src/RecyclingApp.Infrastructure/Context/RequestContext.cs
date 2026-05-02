@@ -1,19 +1,6 @@
-namespace RecyclingApp.Infrastructure.Context;
+using RecyclingApp.Application.Abstractions.Security;
 
-/// <summary>
-/// Provides the current request's tenant, facility, and user context.
-/// In Phase 1, populated from X-Tenant-Id / X-Facility-Id / X-User-Id headers.
-/// Phase 10 will replace this with real JWT-based context.
-/// </summary>
-public interface IRequestContext
-{
-    Guid TenantId { get; }
-    Guid? FacilityId { get; }
-    Guid? UserId { get; }
-    bool HasTenant { get; }
-    bool HasFacility { get; }
-    bool HasUser { get; }
-}
+namespace RecyclingApp.Infrastructure.Context;
 
 public class RequestContext : IRequestContext
 {

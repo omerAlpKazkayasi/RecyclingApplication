@@ -1,26 +1,21 @@
 namespace RecyclingApp.SharedKernel.Domain;
 
 /// <summary>
-/// Base entity with UUID v7 primary key and UUID v4 public identifier.
+/// Base entity with a single Guid primary key.
 /// All domain entities inherit from this.
 /// </summary>
 public abstract class EntityBase
 {
     /// <summary>
-    /// Internal primary key. UUID v7 (time-ordered, index-friendly).
+    /// Internal primary key.
     /// </summary>
     public Guid Id { get; protected set; }
 
-    /// <summary>
-    /// External-facing identifier. UUID v4 (random, safe to expose in APIs).
-    /// </summary>
-    public Guid PublicId { get; protected set; }
-
     protected EntityBase()
     {
-        Id = UuidV7.Create();
-        PublicId = Guid.NewGuid();
+        Id = Guid.NewGuid();
     }
+
 
     private readonly List<IDomainEvent> _domainEvents = [];
 

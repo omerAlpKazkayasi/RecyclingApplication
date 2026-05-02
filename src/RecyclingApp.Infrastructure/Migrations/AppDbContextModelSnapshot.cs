@@ -68,10 +68,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(50)")
                         .HasColumnName("phone");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<string>("TaxNumber")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -87,9 +83,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("updated_at");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.ToTable("customers", (string)null);
                 });
@@ -116,10 +109,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(200)")
                         .HasColumnName("name");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -141,9 +130,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("valid_to");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.ToTable("price_lists", (string)null);
                 });
@@ -172,10 +158,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("product_id");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -192,9 +174,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("PriceListId", "ProductId")
                         .IsUnique();
@@ -236,10 +215,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(200)")
                         .HasColumnName("name");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<string>("QualityGrade")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -261,9 +236,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("updated_at");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TenantId", "Code")
                         .IsUnique();
@@ -299,10 +271,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(20)")
                         .HasColumnName("plate_number");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -316,9 +284,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("vehicle_type");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TenantId", "PlateNumber")
                         .IsUnique();
@@ -348,10 +313,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasDefaultValue(true)
                         .HasColumnName("is_active");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("updated_at");
@@ -363,9 +324,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("username");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("Username")
                         .IsUnique();
@@ -407,10 +365,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("product_id");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<int>("SourceType")
                         .HasColumnType("integer")
                         .HasColumnName("source_type");
@@ -425,9 +379,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("weight_value");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TransactionId");
 
@@ -493,10 +444,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(20)")
                         .HasColumnName("plate_number");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<int>("Status")
                         .HasColumnType("integer")
                         .HasColumnName("status");
@@ -534,9 +481,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("updated_at");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TenantId", "FacilityId", "TransactionNo")
                         .IsUnique();
@@ -589,10 +533,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(1000)")
                         .HasColumnName("notes");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<decimal>("ToleranceValue")
                         .HasPrecision(18, 4)
                         .HasColumnType("numeric(18,4)")
@@ -603,9 +543,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("transaction_id");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TransactionId");
 
@@ -640,10 +577,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("product_id");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<decimal>("QuantityWeight")
                         .HasPrecision(18, 4)
                         .HasColumnType("numeric(18,4)")
@@ -665,9 +598,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("unit_price");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TransactionId");
 
@@ -702,10 +632,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("measured_by_user_id");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<int>("SourceType")
                         .HasColumnType("integer")
                         .HasColumnName("source_type");
@@ -720,9 +646,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("weight_value");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TransactionId");
 
@@ -762,10 +685,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(200)")
                         .HasColumnName("name");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -781,9 +700,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnName("xmin");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TenantId");
 
@@ -820,10 +736,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(500)")
                         .HasColumnName("parameter_value");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -839,9 +751,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("FacilityId");
-
-                    b.HasIndex("PublicId")
-                        .IsUnique();
 
                     b.HasIndex("TenantId", "FacilityId", "ParameterCode")
                         .IsUnique();
@@ -877,10 +786,6 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasColumnType("character varying(200)")
                         .HasColumnName("name");
 
-                    b.Property<Guid>("PublicId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("public_id");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("updated_at");
@@ -896,16 +801,13 @@ namespace RecyclingApp.Infrastructure.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.HasIndex("PublicId")
-                        .IsUnique();
-
                     b.ToTable("tenants", (string)null);
                 });
 
             modelBuilder.Entity("RecyclingApp.Modules.Catalog.Domain.Entities.PriceListItem", b =>
                 {
                     b.HasOne("RecyclingApp.Modules.Catalog.Domain.Entities.PriceList", "PriceList")
-                        .WithMany()
+                        .WithMany("Items")
                         .HasForeignKey("PriceListId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -978,6 +880,11 @@ namespace RecyclingApp.Infrastructure.Migrations
                         .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("RecyclingApp.Modules.Catalog.Domain.Entities.PriceList", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("RecyclingApp.Modules.Operations.Domain.Entities.Transaction", b =>

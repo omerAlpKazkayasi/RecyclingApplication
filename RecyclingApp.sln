@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingApp.Modules.Operations.Tests", "tests\RecyclingApp.Modules.Operations.Tests\RecyclingApp.Modules.Operations.Tests.csproj", "{EBD9A9CE-77E1-4742-9ED6-F04F9BAB1206}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingApp.Application", "src\RecyclingApp.Application\RecyclingApp.Application.csproj", "{430A345F-0313-4A81-8324-24F12546DD8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,18 @@ Global
 		{EBD9A9CE-77E1-4742-9ED6-F04F9BAB1206}.Release|x64.Build.0 = Release|Any CPU
 		{EBD9A9CE-77E1-4742-9ED6-F04F9BAB1206}.Release|x86.ActiveCfg = Release|Any CPU
 		{EBD9A9CE-77E1-4742-9ED6-F04F9BAB1206}.Release|x86.Build.0 = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|x64.Build.0 = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Debug|x86.Build.0 = Debug|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|x64.ActiveCfg = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|x64.Build.0 = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|x86.ActiveCfg = Release|Any CPU
+		{430A345F-0313-4A81-8324-24F12546DD8E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,5 +192,6 @@ Global
 		{84BF65E5-EA52-425B-9EBF-30BF0E85C14E} = {EC447DCF-ABFA-6E24-52A5-D7FD48A5C558}
 		{561F0896-F51E-4DAA-A50F-634CDCBD08DA} = {EC447DCF-ABFA-6E24-52A5-D7FD48A5C558}
 		{EBD9A9CE-77E1-4742-9ED6-F04F9BAB1206} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{430A345F-0313-4A81-8324-24F12546DD8E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
